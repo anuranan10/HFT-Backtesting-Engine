@@ -1,8 +1,8 @@
-# 📈 HFT Backtesting Engine
+# HFT Backtesting Engine
 
 This repository contains a High-Frequency Trading (HFT) backtesting engine built in Python. The system applies a mean reversion strategy using Bollinger Bands, RSI, and configurable Stop Loss / Take Profit thresholds to evaluate tick-level trading data.
 
-## 🚀 Overview
+## Overview
 
 The project was built as an individual effort to understand and implement the logic behind a robust backtesting system on real tick data. It walks through a complete pipeline — from **data collection** to **cleaning**, **technical indicator generation**, **strategy implementation**, and finally, **visualization and optimization**.
 
@@ -12,7 +12,7 @@ Two Jupyter notebooks are provided:
   
 - **`backtesting_final_code.ipynb`**: This is the **cleaned and organized final version**, showing only the optimized version of the strategy along with a basic parameter tuning UI for visualizing results.
 
-## ⚙️ Strategy Logic
+## Strategy Logic
 
 The implemented strategy uses:
 
@@ -23,13 +23,13 @@ The implemented strategy uses:
 
 Optimization is done on the rolling window size for Bollinger Bands to identify the best-performing configuration.
 
-## 🧪 UI & AI Collaboration
+## UI & AI Collaboration
 
 The final notebook includes an interactive UI built using `ipywidgets` to allow users to dynamically change parameters like the rolling window, RSI thresholds, and SL/TP limits.
 
-> 🔍 **Note**: The UI section was integrated using code generated with the help of AI tools. This was a purposeful experiment to test whether modern AI can accelerate coding workflows for longer interactive scripts — a relevant skill today with tools like Cursor, GitHub Copilot, Lovable and ChatGPT. All backtesting logic and strategy implementation, however, were coded by me directly.
+> **Note**: The UI section was integrated using code generated with the help of AI tools. This was a purposeful experiment to test whether modern AI can accelerate coding workflows for longer interactive scripts — a relevant skill today with tools like Cursor, GitHub Copilot, Lovable and ChatGPT. All backtesting logic and strategy implementation, however, were coded by me directly.
 
-## 📁 Files
+## Files
 
 | File | Description |
 |------|-------------|
@@ -39,7 +39,7 @@ The final notebook includes an interactive UI built using `ipywidgets` to allow 
 | `VOL.IDXUSD_Ticks_24.03.2025-24.03.2025.csv` | Raw tick data |
 | `README.md` | This documentation |
 
-## ✅ Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
