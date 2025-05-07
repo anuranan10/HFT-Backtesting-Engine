@@ -27,14 +27,7 @@ Optimization is done on the rolling window size for Bollinger Bands to identify 
 
 The final notebook includes an interactive UI built using `ipywidgets` to allow users to dynamically change parameters like the rolling window, RSI thresholds, and SL/TP limits.
 
-> 🔍 **Note**: The UI section was integrated using code generated with the help of AI tools (ChatGPT). This was a purposeful experiment to test whether modern AI can accelerate coding workflows for longer interactive scripts — a relevant skill today with tools like Cursor, GitHub Copilot, and Lovable. All backtesting logic and strategy implementation, however, were coded by me directly.
-
-## 📊 Sample Output
-
-- Final Portfolio Value: `$11,562.10`
-- Total Return: `+15.62%`
-- Sharpe Ratio: `0.82`
-- Best Rolling Window: `30`
+> 🔍 **Note**: The UI section was integrated using code generated with the help of AI tools. This was a purposeful experiment to test whether modern AI can accelerate coding workflows for longer interactive scripts — a relevant skill today with tools like Cursor, GitHub Copilot, Lovable and ChatGPT. All backtesting logic and strategy implementation, however, were coded by me directly.
 
 ## 📁 Files
 
@@ -49,7 +42,8 @@ The final notebook includes an interactive UI built using `ipywidgets` to allow 
 ## ✅ Technologies Used
 
 - Python
-- Pandas, NumPy
+- Pandas
+- NumPy
 - Matplotlib
 - ipywidgets
 - Jupyter Notebook
